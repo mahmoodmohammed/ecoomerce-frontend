@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 
 const Search = () => {
   return (
-    <div className="searchBox w-full h-[50px] bg-[#f0f5ff] rounded-md relative p-2 flex items-center shadow-sm">
+    <div className="searchBox w-full h-[50px] bg-[#f0f5ff] rounded-md relative p-2  md:flex items-center shadow-sm hidden">
       <input
         type="text"
         name="text"

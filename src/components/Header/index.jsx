@@ -26,14 +26,14 @@ const Header = () => {
       <div className="top-strip !py-3">
         <div className="container">
           <div className="flex items-center justify-between">
-            <div className="col1 w-[50%]">
+            <div className="col1 md:w-[50%] w-[100%]">
               <p className="text-[14px] font-[500]">
                 Get Up to 50% off new season styles, limited time only
               </p>
             </div>
 
             <div className="col2 flex items-center justify-end">
-              <ul className="flex items-center gap-x-3 list-none">
+              <ul className="md:flex items-center gap-x-3 list-none hidden">
                 <li>
                   <Link
                     to="/help-center"
@@ -59,18 +59,18 @@ const Header = () => {
       <div className="header !py-3">
         <div className="container flex items-center justify-between">
           {/* website logo */}
-          <div className="col1 w-[25%]">
-            <Link to="/" className="text-2xl font-bold">
+          <div className="col1 w-[25%] ">
+            <Link to="/" className="md:text-2xl font-bold text-[10px]">
               <span className="text-orange-500 uppercase">s</span>hop
               <span className="text-orange-500 uppercase">K</span>now
             </Link>
           </div>
 
-          <div className="col2 w-[45%]">
+          <div className="col2 w-[45%] ">
             <Search />
           </div>
 
-          <div className="col3 w-[30%] flex items-center justify-end">
+          <div className="col3 w-[30%] md:flex items-center justify-end hidden">
             <ul className="flex items-center justify-end  gap-3  w-full">
               <li className="list-none">
                 <Link
