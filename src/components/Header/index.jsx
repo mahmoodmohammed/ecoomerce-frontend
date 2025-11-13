@@ -10,6 +10,7 @@ import { IoIosGitCompare } from "react-icons/io";
 
 import { IoMdHeartEmpty } from "react-icons/io";
 import Tooltip from '@mui/material/Tooltip';
+import Navigationbar from '../Navigationbar/Navigationbar';
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   '& .MuiBadge-badge': {
@@ -125,6 +126,10 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+                
+                <Navigationbar/>
+
     </header>
   );
 };
